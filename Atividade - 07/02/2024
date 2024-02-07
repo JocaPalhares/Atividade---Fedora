@@ -1,0 +1,8 @@
+Aula Linux Service Applications - 07/02/2024
+
+Exercício 1: Criar um container com o Debian e que seja interativo, que dentro dele tenha o neofetch.
+Resolução/Comandos:
+1. podman pull debian
+2. podman run -it debian /bin/bash
+3. apt-get update && apt-get install -y neofetch
+4. neofetch
